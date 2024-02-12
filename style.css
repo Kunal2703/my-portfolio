@@ -334,14 +334,6 @@ section .title::after{
 
 /* skills section styling */
 .skills{
-    /* height: 100vh;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
-    color:#000000;
-    background: #ffffff; */
-    height: auto; /* Changed from 100vh to auto */
     min-height: 500px;
     background-color: #ffffff;
     font-family: 'Ubuntu', sans-serif;
@@ -371,28 +363,24 @@ section .title::after{
 
 .skills .skills-content {
     display: flex;
-    flex-wrap: wrap; /* Added flex-wrap to allow wrapping of columns */
+    flex-wrap: wrap;
 }
 
 .skills .skills-content .column {
-    width: 100%; /* Adjusted width to full width for better responsiveness */
-    max-width: 400px; /* Added max-width to prevent content from stretching too wide */
-    margin: 0 auto; /* Center the column */
+    width: 100%; 
+    max-width: 400px; 
+    margin: 0 auto; 
 }
 .skills .skills-content .right p {
     text-align: justify;
-    font-size: 20px; /* Adjusted font size for better readability */
-    margin-top: 30px; /* Reduced margin-top for better spacing */
-    line-height: 1.5; /* Added line-height for better readability */
+    font-size: 20px; 
+    margin-top: 30px; 
+    line-height: 1.5;
 }
 .skills .skills-content .right p span {
-    margin-right: 10px; /* Added margin to the span for spacing */
+    margin-right: 10px; 
 }
-/* .skills .skills-content .right p{
-    text-align: justify;
-    font-size: 30px;
-    margin-top: 50px;
-}*/
+
 
 
 
